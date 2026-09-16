@@ -12,18 +12,11 @@ Input 2:
 Output 2:
 Sum = 19
 
-*/
-#include <stdio.h>
-
-int main() {
-    int num1, num2, sum;
-    
-    printf("Enter two numbers: ");
-    scanf("%d %d", &num1, &num2);
-    
-    sum = num1 + num2;
-    
-    printf("Sum = %d\n", sum);
-    
+*/#include <stdio.h>
+int main () {
+    int a, b;
+    printf("Enter two integers: ");
+    scanf("%d %d", &a, &b);
+    printf("Sum: %d\n", a + b);
     return 0;
 }

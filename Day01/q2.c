@@ -12,24 +12,11 @@ Input 2:
 Output 2:
 Sum=10, Diff=4, Product=21, Quotient=2
 
-*/
-
-
-#include <stdio.h>
-
+*/#include <stdio.h>
 int main() {
-    int num1, num2;
-    int sum, diff, product, quotient;
-
-    printf("Enter two numbers: ");
-    scanf("%d %d", &num1, &num2);
-
-    sum = num1 + num2;
-    diff = num1 - num2;
-    product = num1 * num2;
-    quotient = num1 / num2;
-
-    printf("Sum=%d, Diff=%d, Product=%d, Quotient=%d\n", sum, diff, product, quotient);
-
+    int a, b;
+    printf("Enter two integers: ");
+    scanf("%d %d", &a, &b);
+    printf("Sum=%d, Diff=%d, Product=%d, Quotient=%d\n", a + b, a - b, a * b, a / b);
     return 0;
 }
